@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bengkalis Sehat | Rujukan</title>
+    <title>Bandar Laksamana Sehat | Rujukan</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -60,17 +60,17 @@
             <div class="col-lg-4 mt-5 mb-5">
                 <h5>Informasi</h5>
                 <ul class="list-unstyled">
-                    <li><a href="{{ url('/') }}" class="text-light">Beranda</a></li>
+                    <li><a href="{{ url('index')}}" class="text-light">Beranda</a></li>
                     <li><a href="{{ url('dokter') }}" class="text-light">Dokter</a></li>
                     <li><a href="{{ url('services') }}" class="text-light">Pelayanan</a></li>
-                    <li><a href="{{ url('rujukan') }}" class="text-light">Rujukan</a></li>
+                    <li><a href="{{ url('auth.login') }}" class="text-light">Rujukan</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 mt-5 mb-5">
                 <h5>Kontak</h5>
                 <address class="text-light">
-                    Jalan Contoh No. 123<br>
-                    Kota Contoh, 12345<br>
+                    Kecamatan Bandar Laksamana<br>
+                    Kabupaten Bengkalis, 28762<br>
                     Indonesia
                 </address>
             </div>
